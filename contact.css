@@ -1,0 +1,177 @@
+h1 {
+    background: teal;
+    color: white;
+    float: left;
+    margin-left: 100px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+html {
+    height: 100%;
+    margin: 0%;
+    background-image: url("/Week_2/Tristan.Harkleroad.io/prism.png");  
+}
+
+body {
+    background-color: white;
+    overflow: auto;
+    text-align: center;
+    width: 960px;
+    margin: auto;
+    border: 3px solid black;
+    
+}
+
+.wrapper {
+    color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    position: absolute;
+    background-color: gray;
+    width: 100%;
+    border-top: solid 5px #4aaaa5;
+    margin-top: 50%;
+    text-align: center;
+}
+
+
+footer,.push {
+    height: 50px;   
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    
+}
+  
+li {
+    list-style-type: none;
+    float: right;
+    background: white;
+}
+  
+li a {
+   
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#contactbod {
+    padding-top: 60px;
+}
+
+li a:hover {
+    background-color: teal;
+}
+  
+.active {
+    background-color: teal;
+}
+
+ul.topbar {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.border {
+    border-bottom: white solid 5px;
+    position: relative;
+    padding-top: 12px;
+    color: lightslategray;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: darkblue;
+  }
+
+
+
+  
+@media screen and  (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+
+    }
+    .port-item {
+        width: 100%;
+    }
+    #navbar {
+       width: 100%;
+       text-align: center;
+
+    }
+
+    header h1 {
+        width: 100%;
+    }
+
+
+    .linkedcon {
+        position: relative;
+        width: 10%;
+        height: 30%;
+        margin-top: 102%;
+
+    }
+
+    .contactlinks {
+        text-align: center;
+    }
+
+}
+
+@media screen and  (max-width: 980px) {
+    .wrapper {
+        width: 100%;
+    }
+    .bio {
+        margin-top: 20%;
+    }
+    .port-item {
+        width: 100%;
+        height: 100%;
+    }
+
+    footer {
+        width: 100%;
+        margin-top: 45%;
+    }
+}
